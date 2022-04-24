@@ -1,0 +1,25 @@
+﻿<Window x:Class="GUIA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUIA"
+        mc:Ignorable="d"
+        Title="GUIUSU" Height="450" Width="800" Background="#FFD3D3D3">
+    <Grid>
+        <Button Content="Encender Carro" HorizontalAlignment="Left" Margin="51,34,0,0" VerticalAlignment="Top" Height="26" Width="123" Click="Button_Click"/>
+        <Label x:Name="LabelEstatusCarro" Content="Label" HorizontalAlignment="Left" Margin="246,34,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.078,-0.072"/>
+        <Button x:Name="Acelerar" Content="Acelerar Carro" HorizontalAlignment="Left" Margin="51,88,0,0" VerticalAlignment="Top" Height="26" Width="123" Click="Acelerar_Click"/>
+        <Label x:Name="LabelAcelerar" Content="Label" HorizontalAlignment="Left" Margin="246,88,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Bocinar" Content="Bocina" HorizontalAlignment="Left" Margin="51,143,0,0" VerticalAlignment="Top" Height="23" Width="123" Click="Bocinar_Click"/>
+        <Button x:Name="Desacelerar" Content="Desacelerar Carro" HorizontalAlignment="Left" Margin="51,246,0,0" VerticalAlignment="Top" Height="27" Width="123" Click="Desacelerar_Click"/>
+        <Button x:Name="Frenar" Content="Frenar Carro" HorizontalAlignment="Left" Margin="50,303,0,0" VerticalAlignment="Top" Height="22" Width="124" Click="Frenar_Click"/>
+        <Button x:Name="Apagar" Content="Apagar Carro" HorizontalAlignment="Left" Margin="51,350,0,0" VerticalAlignment="Top" Height="23" Width="123" Click="Apagar_Click"/>
+        <Label x:Name="LabelBocina" Content="Label" HorizontalAlignment="Left" Margin="246,137,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LabelDesacelerar" Content="Label" HorizontalAlignment="Left" Margin="246,246,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LabelFrenar" Content="Label" HorizontalAlignment="Left" Margin="246,307,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LabelApagar" Content="Label" HorizontalAlignment="Left" Margin="246,355,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ReproducMP3" Content="MP3" HorizontalAlignment="Left" Margin="51,193,0,0" VerticalAlignment="Top" Height="24" Width="123" Click="ReproducMP3_Click"/>
+
+    </Grid>
+</Window>
